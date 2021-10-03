@@ -151,6 +151,17 @@ body {
     color: var(--secondary-text-color);
 }
 
+.social-icon.header-icon {
+    width: 16px;
+    height: 12px;
+    fill: #757575;
+}
+
+.header-link:hover .header-icon, 
+.header-link:focus .header-icon {
+    fill: var(--accent-color)
+}
+
 /*----------- HERO------------- */
 
 .hero {
@@ -488,7 +499,7 @@ body {
     background-color: var(--accent-color);
 }
 
-.footer-icon {
+.social-icon.footer-icon {
     fill: #ffffff;
 }
 

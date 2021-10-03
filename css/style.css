@@ -225,6 +225,14 @@ body {
     background-color:#F5F4FA;
     height: 120px;
     margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-item-icon {
+    width: 70px;
+    height: 70px;
 }
 
 /* .features-item::before {

@@ -373,14 +373,14 @@ body {
 
 /*----------- Clients ------------- */
 
-.clientd-list {
+.clients-list {
     display: flex;
     margin-top: 50px;
     margin-left: -30px;
     
 }
 
-.clients-item {
+.clients-item-link {
     flex-basis: calc(100% / 6 - 30px);
     margin-left: 30px;
     width: 170px;
@@ -388,6 +388,26 @@ body {
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-item-link:hover .clients-item-icon, 
+.clients-item-link:focus .clients-item-icon {
+    fill: var(--accent-color);
+}
+
+.clients-item-link:hover, 
+.clients-item-link:focus {
+    border-color: var(--accent-color);
+}
+
+
+.clients-item-icon {
+    width: 105px;
+    height: 60px;
+    fill: #AFB1B8;
 }
 
 /*----------- Footer ------------- */

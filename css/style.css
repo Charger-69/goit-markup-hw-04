@@ -321,11 +321,54 @@ body {
     line-height: 1.18;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 16px;
 }
 
 .team-item-text {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.social-item {
+    width: 44px;
+    height: 44px;
+}
+
+.social-item + .social-item {
+    margin-left: 10px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link:hover, 
+.social-link:focus {
+    background-color: var(--accent-color);
+}
+
+.social-link:hover .social-icon, 
+.social-link:focus .social-icon {
+    fill: #ffffff;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
 }
 
 /*----------- Clients ------------- */
